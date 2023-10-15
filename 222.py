@@ -6,3 +6,6 @@ while sieve:
     prime = min(sieve)
     print(prime, end = "\n")
     sieve -= set(range(prime, n+1, prime))
+#commit
+end = time.time()
+print("time is", end-start)
